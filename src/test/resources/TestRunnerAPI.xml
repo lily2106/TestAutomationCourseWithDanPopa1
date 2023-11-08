@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="SeleniumTestSuite">
+
+    <test name="RegisterNewUser">
+        <classes>
+            <class name="tests.old.RegisterTest"/>
+        </classes>
+    </test>
+
+   <test name="LearningSeleniumActions">
+        <classes>
+            <class name="tests.old.RegisterTest"/>
+            <class name="tests.old.LoginTest"/>
+            <class name="tests.old.CheckBoxesTest"/>
+        </classes>
+    </test>
+
+
+</suite>
